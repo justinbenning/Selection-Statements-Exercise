@@ -40,6 +40,10 @@ namespace SelectionStatementExercise
                 {
                     Console.WriteLine("Lower");
                 }
+                else if (favNumber == userGuess == 69)
+                {
+                    Console.WriteLine("Nice.");
+                }
                 else
                 {
                     Console.WriteLine("Nailed it!");
