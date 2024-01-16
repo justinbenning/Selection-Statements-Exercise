@@ -9,10 +9,6 @@ namespace SelectionStatementExercise
             
             var r = new Random();
             decimal favNumber = r.Next(1, 1001);
-            int difference500 = 500;
-            int absoluteValue500 = Math.Abs(difference500);
-            int difference250 = 250;
-            int absoluteValue250 = Math.Abs(difference250);
             decimal userGuess = 0;
 
             do
