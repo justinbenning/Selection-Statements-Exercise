@@ -8,9 +8,9 @@ namespace SelectionStatementExercise
         {
             
             var r = new Random();
-            decimal favNumber = r.Next(1, 1001);
-            decimal userGuess = 0;
-
+            int favNumber = r.Next(1, 1001);
+            int userGuess = 0;
+            int nice = 69;
             do
             {
                 Console.WriteLine("Guess a number from 1 to 1000:");
@@ -36,7 +36,7 @@ namespace SelectionStatementExercise
                 {
                     Console.WriteLine("Lower");
                 }
-                else if (favNumber == userGuess == 69)
+                else if (userGuess == nice && favNumber == userGuess)
                 {
                     Console.WriteLine("Nice.");
                 }
