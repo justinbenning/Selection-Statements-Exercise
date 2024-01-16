@@ -20,11 +20,11 @@ namespace SelectionStatementExercise
                 {
                     Console.WriteLine("You are more than 500 away, you might want to give up.");
                 }
-                else if ((favNumber - userGuess) >= 250 || (favNumber - userGuess) <= -(250) && userGuess > favNumber)
+                else if ((favNumber - userGuess) >= 100 || (favNumber - userGuess) <= -(100) && userGuess > favNumber)
                 {
                     Console.WriteLine("Not great, try again. This time lower.");
                 }
-                else if ((favNumber - userGuess) >= 250 || (favNumber - userGuess) <= -(250) && userGuess < favNumber)
+                else if ((favNumber - userGuess) >= 100 || (favNumber - userGuess) <= -(100) && userGuess < favNumber)
                 {
                     Console.WriteLine("Not great, try again. This time higher.");
                 }
